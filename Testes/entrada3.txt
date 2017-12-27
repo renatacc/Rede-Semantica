@@ -1,0 +1,52 @@
+#Número de nós da rede semântica
+N 16
+
+#Descrição dos nós da rede semântica
+n 1 Jennifer_Aniston
+n 2 Friends
+n 3 Serie
+n 4 Esposa_de_Mentirinha
+n 5 Adam_Sandler
+n 6 comedia
+n 7 filme
+n 8 Sr_e_Sra_Smith
+n 9 Brad_Pitt
+n 10 Harry_Potter
+n 11 Angelina_Jolie
+n 12 As_Vantagens_de_ser_Invisivel
+n 13 drama
+n 14 Logan_Lerman
+n 15 Percy Jackson
+n 16 livro
+
+#Total de tipos de relacionamentos da rede semântica
+K 4
+
+#Descrição dos tipos de relacionamentos 
+k 1 atuou
+k 2 e_um
+k 3 genero
+k 4 forma_um
+
+#Relacionando os nós por meio de tipos de relacionamento
+r 1 4 1
+r 1 2 1
+r 2 3 2
+r 5 4 1
+r 4 6 3
+r 4 7 2
+r 8 7 2
+r 8 6 3
+r 9 8 1
+r 11 8 1
+r 10 7 2
+r 10 16 2
+r 12 7 2
+r 12 13 3
+r 14 12 1
+r 14 15 1
+r 15 16 2
+r 15 7 2
+
+#Fim de arquivo
+f 

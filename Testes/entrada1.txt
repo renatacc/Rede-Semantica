@@ -1,0 +1,47 @@
+#Número de nós da rede semântica
+N 15
+
+#Descrição dos nós da rede semântica
+n 1 cabelo 
+n 2 mamifero
+n 3 anda
+n 4 nada
+n 5 baleias
+n 6 tigres
+n 7 Diego
+n 8 Sidy
+n 9 penas
+n 10 voa
+n 11 aves
+n 12 avestruz
+n 13 Fred
+n 14 Arara
+n 15 cachorro
+
+#Total de tipos de relacionamentos da rede semântica
+K 4
+
+#Descrição dos tipos de relacionamentos 
+k 1 coberto
+k 2 locomocao
+k 3 subclasse
+k 4 e_um
+
+#Relacionando os nós por meio de tipos de relacionamento 
+r 2 1 1
+r 2 3 2
+r 6 2 3
+r 5 4 2
+r 5 2 3
+r 7 6 4
+r 8 5 4
+r 12 3 2
+r 12 11 3
+r 11 9 1
+r 11 10 2
+r 13 12 4
+r 14 11 4
+r 15 2 4
+
+#Fim de arquivo
+f 

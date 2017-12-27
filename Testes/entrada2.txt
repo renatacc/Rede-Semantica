@@ -1,0 +1,53 @@
+#Número de nós da rede semântica
+N 15
+
+#Descrição dos nós da rede semântica
+n 1 Wallace
+n 2 volei
+n 3 bola
+n 4 olimpiadas
+n 5 modalidade
+n 6 futebol
+n 7 Messi
+n 8 polo_aquatico
+n 9 agua
+n 10 natacao
+n 11 Cesar_Cielo
+n 12 boxe
+n 13 judo
+n 14 Leandro_Guilheiro
+n 15 luta
+
+#Total de tipos de relacionamentos da rede semântica
+K 6
+
+#Descrição dos tipos de relacionamentos 
+k 1 atleta
+k 2 e_uma
+k 3 joga_com
+k 4 onde_pratica
+k 5 considerado
+k 6 das
+
+#Relacionando os nós por meio de tipos de relacionamento
+r 1 2 1
+r 2 5 5
+r 2 3 3
+r 5 4 6
+r 6 5 2
+r 7 6 1
+r 8 5 2
+r 8 9 4
+r 6 3 3
+r 8 3 3
+r 10 5 2
+r 10 9 4
+r 11 10 1
+r 12 5 2
+r 12 15 5
+r 13 5 2
+r 13 15 5
+r 14 13 1
+
+#Fim de arquivo
+f 
